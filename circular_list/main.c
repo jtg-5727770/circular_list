@@ -143,6 +143,7 @@ int main(void) {
 			exit(0);
 		default:
 			printf("다시 선택해주세요.\n");
+			while (getchar() != '\n');
 		}
 	}
 	system("pause");
